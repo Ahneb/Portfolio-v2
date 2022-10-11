@@ -17,11 +17,16 @@ body{
 
 .headerBar{
     display: flex;
+    justify-content: flex-end;
     flex-direction: row;
 }
 
 .headerContent{
     display: flex;
+}
+
+#avatar{
+    margin-right: auto;
 }
 
 .headerName{
@@ -59,7 +64,7 @@ body{
 }
 
 .largeImg{
-    
+
 }
 
 .smallImg{
