@@ -36,15 +36,17 @@ body{
 
 /*Main Styling*/
 .content{
-
+    flex-direction: column;
 }
 
 .contentSections{
-
+    display: flex;
+    flex-direction: row;
 }
 
 .contentContainers{
-
+    display: flex;
+    flex-direction: column;
 }
 
 .contentTitles{
@@ -52,11 +54,12 @@ body{
 }
 
 .contentInfo{
-
+    display: flex;
+    flex-direction: row;
 }
 
 .largeImg{
-
+    
 }
 
 .smallImg{
