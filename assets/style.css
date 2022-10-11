@@ -1,80 +1,93 @@
+:root {
+    --backGrey: #2a2a2e;
+    --bannerBlue: #003070;
+}
+
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
-body{
-    background-color: #2a2a2e;
+body {
+    background-color: var(--backGrey);
     color: white;
 }
 
 /*Header Styling*/
-.header{
+.header {
     display: flex;
     flex-direction: column;
 }
 
-.headerBar{
+.headerBar {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
 }
 
-.headerContent{
+.headerContent {
     display: flex;
-    background-color: #003070;
-    border-bottom: solid 5px #2a2a2e;
+    align-items: center;
+    border-bottom: solid 5px var(--backGrey);
 }
 
-#avatar{
+#avatar {
     margin-right: auto;
+    background-image: linear-gradient(to left, rgb(0, 48, 112, 0), rgb(0, 48, 112, 1));
 }
 
-#headerInfo{
-    max-width: 300px;
-    max-width: 300px;
-    padding: 20px 40px 20px 20px;
+#navContent {
+    background-image: linear-gradient(to right, rgb(0, 48, 112, 0), rgb(0, 48, 112, 1));
 }
 
-.headerName{
+h1 {
+    font-size: 7vw;
+}
+
+.headerName {
     display: flex;
-    align-items: center;
 }
 
-.headerNav{
+.headerContent ul {
     display: flex;
-    align-items: center;
+}
+
+.headerContent ul li {
+    color: #ffffff;
+    list-style: none;
+    font-size: 1.5vw;
+    padding: 5px;
+    margin: 15px;
+    border-bottom: solid 2px red;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*Main Styling*/
-.content{
+.content {
     flex-direction: column;
 }
 
-.contentSections{
+.contentSections {
     display: flex;
     flex-direction: row;
 }
 
-.contentContainers{
+.contentContainers {
     display: flex;
     flex-direction: column;
 }
 
-.contentTitles{
+.contentTitles {}
 
-}
-
-.contentInfo{
+.contentInfo {
     display: flex;
     flex-direction: row;
 }
 
-.largeImg{
+.largeImg {}
 
-}
-
-.smallImg{
-
-}
+.smallImg {}
