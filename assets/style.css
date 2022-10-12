@@ -115,21 +115,40 @@ a {
     flex: 40%;
 }
 
-/*Content Title Dont Styling*/
+/*Content Title Font Styling (left containers)*/
 .contentTitles {
     font-size: 60px;
     font-style: italic;
     text-align: end;
     background-color: grey;
     padding: 30px;
+    
 }
 
+/*Content Info (right containers)*/
 .contentInfo {
     display: flex;
     flex-direction: row;
     background-color: rgb(81, 61, 26);
+    border-left: solid 10px red;
+    padding: 0px 50px;
+    font-size: 30px;
+    line-height: 150%;
 }
 
-.largeImg {}
+/*About Me Paragraph Styling*/
+.content p{
+    font-size: 30px;
+    line-height: 150%;
+}
 
-.smallImg {}
+/*Content section Main Image*/
+.largeImg {
+    position: relative;
+}
+
+
+
+.smallImg {
+    position: relative;
+}
