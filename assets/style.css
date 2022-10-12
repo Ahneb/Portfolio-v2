@@ -32,15 +32,18 @@ body {
     border-bottom: solid 5px var(--backGrey);
 }
 
+/*Avatar Image Styling*/
 #avatar {
     margin-right: auto;
     background-image: linear-gradient(to left, rgb(0, 48, 112, 0), rgb(0, 48, 112, 1));
 }
 
+/*Name Styling*/
 h1 {
     font-size: 7vw;
 }
 
+/*Header Nav bar styling*/
 #navContent {
     display: flex;
     background-image: linear-gradient(to right, rgb(0, 48, 112, 0), rgb(0, 48, 112, 1));
@@ -59,10 +62,12 @@ h1 {
     border-bottom: solid 2px red;
 }
 
+/*Removes the default underline of links*/
 a {
     text-decoration: none;
 }
 
+/*Banner styling*/
 .banner{
     position: relative;
     width:100%;
@@ -73,12 +78,14 @@ a {
     width: 100%;
 }
 
+/*Banner subtitle positioning*/
 .banner div {
     position: absolute;
     bottom: 20%;
     right: 10%;
 }
 
+/*Banner subtitle styling*/
 .subtitle {
     font-size: 50px;
 }
@@ -103,12 +110,18 @@ a {
     width: 100%;
 }
 
+/*Formats every other content container to hold 40/60 space ratio*/
 .contentContainers:nth-child(odd){
     flex: 40%;
 }
 
+/*Content Title Dont Styling*/
 .contentTitles {
+    font-size: 60px;
+    font-style: italic;
+    text-align: end;
     background-color: grey;
+    padding: 30px;
 }
 
 .contentInfo {
