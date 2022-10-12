@@ -66,9 +66,22 @@ a {
 .banner{
     position: relative;
     width:100%;
-    
 }
 
+.banner img {
+    max-height: 300px;
+    width: 100%;
+}
+
+.banner div {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+}
+
+.subtitle {
+    font-size: 50px;
+}
 
 /*Main Styling*/
 .content {
