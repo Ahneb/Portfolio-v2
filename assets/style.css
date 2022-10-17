@@ -197,3 +197,114 @@ a {
     padding: 5px;
     margin: 15px;
 }
+
+@media only screen and (max-width: 1000px) {    
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    /*Header Media Query formatting*/
+    .headerBar{
+        display: flex;
+        flex-direction: column;
+        max-height: 500px;
+        margin: auto;
+    }
+    .headerContent{
+        height: auto;
+        justify-content: center;
+    }
+
+    .headerContent:nth-child(odd) {
+        display: flex;
+        padding: 10px;
+    }
+    
+    .headerContent:nth-child(even) {
+        display: flex;
+        padding: 10px;
+    }
+    
+    #avatar {
+        margin: 0px;
+        background: radial-gradient(var(--backGrey) 50%, var(--bannerBlue));
+    }
+
+    h1 {
+        align-items: center;
+        font-size: 10vw;
+        text-size-adjust: auto;
+    }
+    .headerNav ul li {
+        font-size: 3.5vw;
+    }
+    .headerNav{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .banner div {
+        position: absolute;
+        bottom: 45%;
+        left: 34%;
+    }
+    .subtitle {
+        font-size: 4vw;
+    }
+
+    #navContent {
+        background: linear-gradient(var(--backGrey) 30%, var(--bannerBlue));
+    }
+
+
+
+
+
+    /*Main Media Query formatting*/
+    .contentSections {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contentContainers {
+        width: auto;
+    }
+
+    .contentContainers:nth-child(even) {
+        border: solid 10px var(--bannerBlue);
+    }    
+
+    .contentTitles {
+        text-align: center;
+    }
+
+    .contentTitles {
+        background: linear-gradient(to bottom, var(--backGrey), var(--bannerBlue));
+    }
+
+    .contentInfo{
+        flex-direction: column;
+    }
+    .largeImg div {
+        font-size: 10vw;
+    }
+    .smallImg img {
+        width: 100%;
+        height: auto;
+    }
+    .smallImg div {
+        font-size: 10vw;
+    }
+    .contentInfo ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .contentInfo li {
+        display: flex;
+        justify-content: center;
+        font-size: 2vw;
+        border-bottom: 2px 4px solid red;
+    }
+}
