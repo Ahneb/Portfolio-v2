@@ -288,14 +288,20 @@ a {
         flex-direction: column;
     }
     .largeImg div {
-        font-size: 10vw;
+        font-size: 30px;
+        font-size-adjust: auto;
     }
     .smallImg img {
         width: 100%;
         height: auto;
     }
     .smallImg div {
-        font-size: 10vw;
+        position: absolute;
+        justify-content: center;
+        width: auto;
+        font-size: 30px;
+        font-size-adjust: auto;
+        text-align: center;
     }
     .contentInfo ul{
         display: flex;
@@ -304,7 +310,7 @@ a {
     .contentInfo li {
         display: flex;
         justify-content: center;
-        font-size: 2vw;
+        font-size: 10px;
         border-bottom: 2px 4px solid red;
     }
 }
