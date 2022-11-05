@@ -112,7 +112,7 @@ a {
 }
 
 .contentContainers:nth-child(odd) {
-    flex: 40%;
+    flex: 20%;
 }
 
 .contentContainers:nth-child(even) {
